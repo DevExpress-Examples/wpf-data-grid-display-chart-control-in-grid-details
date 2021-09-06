@@ -1,6 +1,6 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
-# Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChartInDetail", "WpfApplication19\ChartInDetail.csproj", "{D54AD0CA-7CD2-4EB0-A0F1-EC8538DC3A47}"
+# Visual Studio 16
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChartInDetail", "WpfApplication19\ChartInDetail.Net5.csproj", "{D54AD0CA-7CD2-4EB0-A0F1-EC8538DC3A47}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
