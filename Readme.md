@@ -4,16 +4,35 @@
 [![](https://img.shields.io/badge/📖_How_to_use_DevExpress_Examples-e9f6fc?style=flat-square)](https://docs.devexpress.com/GeneralInformation/403183)
 <!-- default badges end -->
 <!-- default file list -->
-*Files to look at*:
+
+# WPF Data Grid - Display Chart Control in Grid Details
+
+This example displays the memo field and the [Chart Control](https://docs.devexpress.com/WPF/117736/controls-and-libraries/charts-suite/chart-control) in grid details. The memo field displays data from the master row, and the chart is bound to detail data. The DataTemplate that contains these two controls is asigned to both [ContentDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ContentDetailDescriptor) and [DataControlDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataControlDetailDescriptor):
+
+* The **ContentDetailDescriptor** tab displays the custom content only.
+* The **DataControlDetailDescriptor** tab displays the custom content above the detail [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl).
+
+![image](https://user-images.githubusercontent.com/65009440/208106793-f09b93f9-1bce-4b8f-9f08-945139390fdd.png)
+
+## Files to Review
 
 * [MainWindow.xaml](./CS/WpfApplication19/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/WpfApplication19/MainWindow.xaml))
 * [MainWindow.xaml.cs](./CS/WpfApplication19/MainWindow.xaml.cs) (VB: [MainWindow.xaml.vb](./VB/WpfApplication19/MainWindow.xaml.vb))
-<!-- default file list end -->
-# Displaying chart control in grid details
 
+## Documentation
 
-<p>This example demonstrates how to display a memo field and a chart within grid details.  While the memo field displays data from the master record, the chart control is bound to the detail data table. </p><p>Grid Controls in this sample use a TabViewDetailDescriptor with both ContentDetailDescriptor and DataControlDescriptor showing the same custom content. This is done by assigning the same template to the detail descriptors' ContentTemplate properties. Note that when using a DataControlDetailDescriptor, the template is displayed above the detail grid.</p><p>Two grid control are included in this sample to demonstrate how to setup custom details both via XAML or code.</p>
+* [Tabbed View for Details](https://docs.devexpress.com/WPF/119853/controls-and-libraries/data-grid/master-detail/tabbed-view-for-details)
+* [Custom Content in Details](https://docs.devexpress.com/WPF/119852/controls-and-libraries/data-grid/master-detail/custom-content-in-details)
+* [Data Grid in Details](https://docs.devexpress.com/WPF/119851/controls-and-libraries/data-grid/master-detail/data-grid-in-details)
+* [TabViewDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.TabViewDetailDescriptor)
+* [ContentDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ContentDetailDescriptor)
+* [DataControlDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataControlDetailDescriptor)
 
-<br/>
+## More Examples
 
-
+* [WPF Data Grid - Create Master-Detail Grid](https://github.com/DevExpress-Examples/wpf-data-grid-create-master-detail-grid)
+* [WPF Data Grid - Create a Master-Detail Grid in Code](https://github.com/DevExpress-Examples/wpf-data-grid-create-master-detail-grid-in-code)
+* [WPF Data Grid - Display Detail Content in Tabs](https://github.com/DevExpress-Examples/wpf-data-grid-display-detail-content-in-tabs)
+* [WPF Data Grid - Expand and Collapse Master Rows](https://github.com/DevExpress-Examples/expanding-and-collapsing-master-rows-e4044)
+* [WPF Data Grid - Specify Detail Buttons Visibility](https://github.com/DevExpress-Examples/detail-buttons-visibility-e4050)
+* [WPF Data Grid - Select Details Based on the Data in the Master Row](https://github.com/DevExpress-Examples/how-to-use-different-details-depending-on-data-in-gridcontrols-master-row-t590724)
