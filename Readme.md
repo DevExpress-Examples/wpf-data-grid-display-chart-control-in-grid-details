@@ -12,7 +12,7 @@ This example displays the memo field and the [Chart Control](https://docs.devexp
 * The **ContentDetailDescriptor** tab displays the custom content only.
 * The **DataControlDetailDescriptor** tab displays the custom content above the detail [GridControl](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.GridControl).
 
-![image](https://user-images.githubusercontent.com/65009440/208117852-56f53d2c-9539-4eb7-9632-e9926416efa7.png)
+![image](https://user-images.githubusercontent.com/65009440/208117852-56f53d2c-9539-4eb7-9632-e9926416efa7.png) 
 
 ## Files to Review
 
