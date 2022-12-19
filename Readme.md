@@ -29,7 +29,7 @@ This example displays the memo field and the [Chart Control](https://docs.devexp
 * [ContentDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.ContentDetailDescriptor)
 * [DataControlDetailDescriptor](https://docs.devexpress.com/WPF/DevExpress.Xpf.Grid.DataControlDetailDescriptor)
 
-## More Examples.
+## More Examples
 
 * [WPF Data Grid - Create Master-Detail Grid](https://github.com/DevExpress-Examples/wpf-data-grid-create-master-detail-grid)
 * [WPF Data Grid - Create a Master-Detail Grid in Code](https://github.com/DevExpress-Examples/wpf-data-grid-create-master-detail-grid-in-code)
